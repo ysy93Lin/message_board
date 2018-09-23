@@ -15,7 +15,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>留言板</title>
 	<link href="Css/bootstrap.css" rel="stylesheet" type="text/css" />
 	<script type="text/javascript" src="Js/jquery.js"></script>
 	<style type="text/css">
