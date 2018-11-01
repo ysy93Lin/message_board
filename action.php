@@ -10,7 +10,7 @@
 			$username=trim($_POST['username']);
 			$userpass=md5($_POST['userpass']);
 
-			$sql="select * from user where username='{$username}' and userpass='{$userpass}'";
+			$sql="select * from user where array('username'=>$username,'userpass'=>$userpass)";
 			$result=mysql_query($sql);
 			if(mysql_num_rows($result)>0){
 				setcookie("username",$username);
